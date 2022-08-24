@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- bootstrap css -->
+    <link rel="stylesheet" href="./node_modules/bootstrap/dist/css/bootstrap.css">
+    <!-- custom css -->
+    <link rel="stylesheet" href="./style/style.css">
+    <title>Bootstrap- Landing Page</title>
+</head>
+
+<body>
+    <div class="container-fluid">
+        <div class="row align-items-center justify-content-center colum p-2 mt-5">
+            <div class="col-lg-4 bg-dark text-white">
+                <form action="" method="post">
+                    <fieldset>
+                        <img src="./img/Logo1.png" alt="pixabay free bg" class="img-fluid my-3">
+                        <h3 class="h3 text-center mb-3">Cadastro</h3>
+                        <label for="exampleInputEmail1" class="form-label mb-3">1 - Qual o seu nome?</label>
+                        <div class="input-group mb-3">
+                            <span class="input-group-text" id="basic-addon2">Primeiro nome:</span>
+                            <input type="text" class="form-control" placeholder="Ex: Aline"
+                                aria-label="Recipient's username" aria-describedby="basic-addon2">
+                        </div>
+                        <div class="input-group mb-3">
+                            <span class="input-group-text" id="basic-addon2">Segundo nome:</span>
+                            <input type="text" class="form-control" placeholder="Ex: Souza"
+                                aria-label="Recipient's username" aria-describedby="basic-addon2">
+                        </div>
+                        <label for="exampleInputEmail1" class="form-label mb-3">2 - Qual o seu gênero?</label>
+                        <div class="input-group justify-content-start align-items-start flex-column mb-3">
+                            <div class="form-check">
+                                <input class="form-check-input mb-2" type="radio" name="flexRadioDefault"
+                                    id="flexRadioDefault1">
+                                <label class="form-check-label" for="flexRadioDefault1">
+                                    Homem
+                                </label>
+                            </div>
+                            <div class="form-check">
+                                <input class="form-check-input mb-2" type="radio" name="flexRadioDefault"
+                                    id="flexRadioDefault2">
+                                <label class="form-check-label" for="flexRadioDefault2">
+                                    Mulher
+                                </label>
+                            </div>
+                            <div class="form-check">
+                                    <input class="form-check-input mb-2" type="radio" name="flexRadioDefault"
+                                        aria-label="Radio button for following text input" id="flexRadioDefault3">
+                                        <label class="form-check-label" for="flexRadioDefault2">
+                                           Outro
+                                        </label>
+                                    <input type="text" class="form-control-sm bg-transparent text-white" 
+                                        aria-label="Text input with radio button">
+                            </div>
+                        </div>
+                        <label for="exampleInputEmail1" class="form-label mb-3">3 - Marque os treinamentos que você
+                            fez:</label>
+                        <div class="input-group justify-content-start align-items-start flex-column mb-3">
+                            <div class="form-check form-switch">
+                                <input class="form-check-input" type="checkbox" role="switch" id="">
+                                <label class="form-check-label" for="">HTML</label>
+                            </div>
+                            <div class="form-check form-switch">
+                                <input class="form-check-input" type="checkbox" role="switch" id="">
+                                <label class="form-check-label" for="">CSS</label>
+                            </div>
+                            <div class="form-check form-switch">
+                                <input class="form-check-input" type="checkbox" role="switch" id="">
+                                <label class="form-check-label" for="">Javascript</label>
+                            </div>
+                            <div class="form-check form-switch">
+                                <input class="form-check-input" type="checkbox" role="switch" id="">
+                                <label class="form-check-label" for="">ReactJs</label>
+                            </div>
+                        </div>
+                        <label for="exampleInputEmail1" class="form-label mb-3">4 - Quais você acha que são suas
+                            qualidades:</label>
+                        <div class="input-group mb-3">
+                            <div class="form-check me-3">
+                                <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                                <label class="form-check-label" for="flexCheckDefault">
+                                    Curiosidade
+                                </label>
+                            </div>
+                            <div class="form-check me-3">
+                                <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked">
+                                <label class="form-check-label" for="flexCheck">
+                                    Entende o que o cliente quer
+                                </label>
+                            </div>
+                            <div class="form-check me-3">
+                                <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                                <label class="form-check-label" for="flexCheckDefault">
+                                    Comunicação pessoal
+                                </label>
+                            </div>
+                            <div class="form-check me-3">
+                                <input class="form-check-input" type="checkbox" value="" id="flexCheck">
+                                <label class="form-check-label" for="flexCheck">
+                                    Trabalho em equipe
+                                </label>
+                            </div>
+                            <div class="form-check me-3">
+                                <input class="form-check-input" type="checkbox" value="" id="flexCheck">
+                                <label class="form-check-label" for="flexCheck">
+                                    Competência técnica
+                                </label>
+                            </div>
+                        </div>
+                        <div class="input-group mb-4 align-items-center justify-content-center">
+                            <button type="button" class="btn btn-lg btn-outline-success">Enviar</button>
+                        </div>
+
+                    </fieldset>
+                </form>
+            </div>
+
+        </div>
+    </div>
+
+    <!-- bootstrap js -->
+    <script src="./node_modules/bootstrap/dist/js/bootstrap.js"></script>
+</body>
+
+</html>
