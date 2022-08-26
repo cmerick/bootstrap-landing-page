@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: $secondary-color;
+    color: $secondary-color;    
+}
+
+.header-custom{
+    min-height: 70px;
+    background-color: $primary-color;
+
+}
+
+.container-custom{
+    max-width: 450px;
+    height: auto;
+    background-color: $primary-color;
+}
+.paragraph {
+    margin-top: 8px;
+}
+
+.btn-custom{
+    color: $secondary-color;
+
+    &:hover{
+        background-color: $secondary-color;
+        color: $primary-color;
+    }
+}
+
+
+.footer{
+    margin-top: 30px;
+    margin-bottom: -30px;
+    color: $primary-color;
+    .icons{
+        
+        a{
+            margin: 8px;
+            text-decoration: none;
+            color: $primary-color;
+        }
+    }
+    
+
+}
